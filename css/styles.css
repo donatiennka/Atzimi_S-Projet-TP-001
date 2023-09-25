@@ -16,13 +16,15 @@ nav #logo
 
 nav a
 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
 .nav-link
 {
 	color: #f9e2b4;
+  min-width: 100px;
+  text-align: center;
   border-left-style: groove;
 }
 
@@ -37,10 +39,22 @@ nav a
   
 }
 
-.navbar-nav
+.navbar
 {
-  flex-direction: row;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/rouge-bricks.jpg")
+    center no-repeat fixed;
+    background-color: rgba(0,0,0,0);
+    background-position-x: 0%, center;
+    background-position-y: 0%, center;
+    background-repeat: repeat, no-repeat;
+    background-attachment:scroll, fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
+    url("images/rouge-bricks.jpg");
+    background-size: auto, cover;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
   
+  padding: 5px;
 }
 
 
