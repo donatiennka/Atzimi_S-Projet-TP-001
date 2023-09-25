@@ -20,11 +20,29 @@ nav a
   font-weight: bold;
 }
 
-.tstyle {color: bisque;}
-
 .nav-link
 {
 	color: #f9e2b4;
+  border-left-style: groove;
 }
+
+.dropdown-item 
+{ 
+  text-align: center; 
+  color: #f9e2b4;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  background-color: rgb(37, 2, 2);
+  
+}
+
+.navbar-nav
+{
+  flex-direction: row;
+  
+}
+
+
 
 
