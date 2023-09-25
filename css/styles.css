@@ -23,7 +23,7 @@ nav a
 .nav-link
 {
 	color: #f9e2b4;
-  min-width: 100px;
+  min-width: 110px;
   text-align: center;
   border-left-style: groove;
 }
@@ -57,6 +57,33 @@ nav a
   padding: 5px;
 }
 
+.banner
+{
+  height: 50vh;
+}
 
+body #btn-contact
+{
+  position: fixed;
+  color: white;
+  font-weight: bolder;
+}
 
+footer div .footer-style
+{
+  color: #f4b643;
+}
 
+footer li .footer-link
+{
+  font-size: 0.8em;
+  color: #f9e2b4;
+}
+
+#footer-wrapper-div
+{
+  background: rgba(24, 9, 1, 0.92);
+    background-color: rgba(26, 9, 1, 0.92);
+  border-top:8px solid #f9e2b4;
+  border-color: #f9e2b4;
+}
