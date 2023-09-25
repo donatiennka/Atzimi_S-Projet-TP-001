@@ -80,10 +80,16 @@ footer li .footer-link
   color: #f9e2b4;
 }
 
-#footer-wrapper-div
+#main-style
 {
-  background: rgba(24, 9, 1, 0.92);
-    background-color: rgba(26, 9, 1, 0.92);
+  background: rgba(26, 12, 3, 0.96);
+    background-color: rgba(26, 12, 3, 0.96);
+}
+
+#footer-style
+{
+  background: rgba(48, 28, 17, 0.92);
+    background-color: rgba(41, 22, 13, 0.92);
   border-top:8px solid #f9e2b4;
   border-color: #f9e2b4;
 }
