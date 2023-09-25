@@ -82,8 +82,28 @@ footer li .footer-link
 
 #main-style
 {
-  background: rgba(26, 12, 3, 0.96);
-    background-color: rgba(26, 12, 3, 0.96);
+  background: rgba(26, 12, 3, 1.0);
+    background-color: rgba(26, 12, 3, 1.0);
+}
+
+.h1-text-style
+{
+  font-weight: bold;
+  color: #e19403;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+box-shadow
+{
+  box-shadow:0px 10px 10px, rgba(255,216,201,0.490196);
+}
+
+.tree-text-style
+{
+  color: #f9e2b4;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: start;
 }
 
 .testimonials-style
@@ -96,6 +116,19 @@ footer li .footer-link
 .testimonials-style #text-style
 {
   color: rgb(133, 135, 194);
+}
+
+.modal-cantact
+{
+  position: fixed;
+  left: 85%;
+  bottom: 50px;
+  padding: 20px 5px;
+  background: #d76608;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-weight: 900;
 }
 
 #footer-style
