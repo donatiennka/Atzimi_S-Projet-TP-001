@@ -70,9 +70,16 @@ footer li .footer-link
   font-family: 'Times New Roman', Times, serif;
 }
 
+.h5-text-style
+{
+  font-weight: lighter; color: #f9e2b4; font-style: italic; line-height: 2;
+}
+
+
 .box-shadow
 {
   box-shadow:0px 10px 10px rgba(255,216,201,0.490);
+  min-height: 200px;
 }
 
 .tree-text-style
