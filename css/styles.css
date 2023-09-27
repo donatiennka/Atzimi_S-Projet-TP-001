@@ -91,6 +91,15 @@ footer li .footer-link
   font-size: 1.1em;
 }
 
+.general-btn
+{
+  border: 1px solid white;
+  padding: 5px 7px;
+  font-size: 1em;
+  color: black;
+  background-color: white;
+}
+
 .testimonials-style
 {
   background: rgba(35, 22, 52, 0.96);
