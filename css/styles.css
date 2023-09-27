@@ -11,7 +11,7 @@
 nav #logo
 {
   width: 150%;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 
 nav a
@@ -39,7 +39,7 @@ nav a
   
 }
 
-.navbar
+/**.navbar
 {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/rouge-bricks.jpg")
     center no-repeat fixed;
@@ -55,7 +55,7 @@ nav a
     background-clip: border-box, border-box;
   
   padding: 5px;
-}
+}**/
 
 .banner
 {
