@@ -1,4 +1,4 @@
-
+/** Header **/
 .navbar-toggler
 {
   padding: 10px;
@@ -16,16 +16,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-}
-
-body { color: #f9e2b4; }
-
-.headings-styles
-{
-  font-weight: bold;
-  text-align: center;
-  font-size: 2em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav #logo
@@ -62,21 +52,16 @@ nav #logo
   background-color: rgb(37, 2, 2);
 }
 
-body #btn-contact
-{
-  position: fixed;
-  color: white;
-  font-weight: bolder;
-}
+/** Body **/
 
-footer div .footer-style
-{
-  color: #f4b643;
-}
+body { color: #f9e2b4; }
 
-footer li .footer-link
+.headings-styles
 {
-  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #main-style
@@ -109,7 +94,7 @@ footer li .footer-link
   font-weight: 600;
   font-style: italic;
   text-align: start;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 .general-btn
@@ -144,6 +129,17 @@ footer li .footer-link
   border: 3px solid white;
   border-radius: 20px;
   font-weight: 900;
+}
+
+/** Footer **/
+footer div .footer-style
+{
+  color: #f4b643;
+}
+
+footer li .footer-link
+{
+  font-size: 0.8em;
 }
 
 #footer-style
